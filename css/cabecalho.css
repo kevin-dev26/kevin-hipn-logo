@@ -40,12 +40,12 @@
     margin: 10px;
     border-radius: 15px;
     background-color: var(--cor2);   
-    padding: 1.2vw; 
+    padding: 0.5vw; 
 }
 
 .botao-faixa > a {
     font-family: var(--fonte-padrao);
-    font-size: 1.4em;
+    font-size: 0.8em;
     font-style: bold;
     color: (var(--cor3));
     text-decoration: none;     
