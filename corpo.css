@@ -1,0 +1,64 @@
+:root {
+    --cor0: #0A0A7B;
+    --cor1: #06067D;
+    --cor2: #000000;
+    --cor3: #B8DBD9;
+    --cor33:#b8dbd9bd;
+    --cor4: #F4F4F9;
+    --cor5: #04724D;
+    --cor6: #1B7F5D;
+    
+    
+    --fonte-padrao: arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Newsreader', serif;
+    --fonte-especial: 'Noto Serif', serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    max-width: 100%;
+}
+
+main  { 
+    
+    background-color: var(--cor33);
+    margin: 0 5vw 5vw 5vw;
+    text-align: center;
+    border-bottom-left-radius: 10vw;
+    border-bottom-right-radius: 10vw;
+    margin-bottom: 10vw;
+   
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+
+
+.titulo {
+    text-align: center;
+    font-family: var(--fonte-destaque);
+}
+
+.cartao {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+}
+.cartao > p {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.imagem-cartao {
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    margin: 20px
+}
+
+.botao-cartao {
+    margin: auto;
+    text-align: center;
+}
