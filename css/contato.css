@@ -1,0 +1,36 @@
+:root {
+    --cor0: #0A0A7B;
+    --cor1: #06067D;
+    --cor2: #000000;
+    --cor3: #B8DBD9;
+    --cor4: #F4F4F9;
+    --cor5: #04724D;
+    --cor6: #1b7f5e;
+    --cor7: #1b7f5e2a;
+        
+    --fonte-padrao: arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Newsreader', serif;
+    --fonte-especial: 'Noto Serif', serif;
+}
+
+section > a {
+    text-decoration: none;
+    color: black;
+}
+
+.botao-whatsapp {
+    background-color:(--cor5)
+}
+
+.cartao-contato {
+    margin: 1px;
+    padding: 50px;
+}
+
+.cartao-contato > h1, h2, h3, p {
+
+    padding: 10px;
+    text-align: left;
+
+}
+

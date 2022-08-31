@@ -13,7 +13,8 @@
     --fonte-especial: 'Noto Serif', serif;
 }
 
- /* FAIXA NO CABEÇALHO FIM*/
+ /* FAIXA NO CABEÇALHO INICOP*/
+ 
 
 .faixa-zero {
     display:flex;
@@ -88,13 +89,15 @@ ul {
 
 ul > li > a {
     color: (var(--cor3));
+    font-size: 20px;
     text-decoration: none;
-    background-color: var(--cor7);
-    text-align: justify;
+    background-color: #1b7f5ed1;
+    text-align: center;
     padding: 12px;
     width: 120px;
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    
 }
 
 ul > li > a:hover {
@@ -112,3 +115,4 @@ li {
     font-family: var(--fonte-padrao);
     
 }
+
