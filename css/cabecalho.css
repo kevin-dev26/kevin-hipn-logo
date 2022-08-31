@@ -89,7 +89,8 @@ ul {
 
 ul > li > a {
     color: (var(--cor3));
-    font-size: 20px;
+    font-size: 17px;
+    font-style: var(--fonte-padrao);
     text-decoration: none;
     background-color: #1b7f5ed1;
     text-align: center;

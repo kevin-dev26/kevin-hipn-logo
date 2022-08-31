@@ -62,3 +62,33 @@ main  {
     margin: auto;
     text-align: center;
 }
+
+/*SECTION DE DEPOIMENTOS */
+
+.titulo-depoimentos {
+    margin: auto;
+    padding: 2vw;
+    text-align: center;
+    font: (var(--fonte-padrao)));
+    font-size: 6vw;
+    background-color: var(--cor6);
+    border-radius: 10px;
+    width: 75vw;
+}
+
+.sub-titulo-depoimentos {
+    padding: 2vw;
+    background-color: #04724D;
+    width: 35vw;
+    margin: 1vw auto;
+    font-size: 1em;
+}
+
+
+.depoimento-imagem {
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 10px;
+}
+
