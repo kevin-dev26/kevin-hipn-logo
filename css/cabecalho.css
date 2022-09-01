@@ -1,12 +1,15 @@
 :root {
+
     --cor0: #0A0A7B;
     --cor1: #06067D;
     --cor2: #000000;
     --cor3: #B8DBD9;
+    --cor33:#b8dbd9bd;
     --cor4: #F4F4F9;
     --cor5: #04724D;
     --cor6: #1b7f5e;
     --cor7: #1b7f5e2a;
+    
         
     --fonte-padrao: arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Newsreader', serif;
@@ -58,10 +61,17 @@
     color: var(--cor2);
     font-weight: bold;
 }
+
+.imagem-back-menu {
+    padding: 5vw;
+}
+
+
  /* FAIXA NO CABEÇALHO FIM*/
 
 .cabecalho {
-    background: black url(https://images.pexels.com/photos/6551313/pexels-photo-6551313.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) center top no-repeat fixed;
+    
+    background: black url(https://img.freepik.com/vetores-gratis/ilustracao-do-conceito-de-psicologo_114360-2141.jpg?w=740&t=st=1662013216~exp=1662013816~hmac=c3c726f076b1033228420313c1d5f05dc3c1e7b4d52bdbb1b33abf4554bac0ba) center center no-repeat fixed;
     background-size: cover;
     height:max-content;
 }
@@ -79,6 +89,7 @@
     flex-flow: column;
     padding: 0.5vw;  
     align-items: center;
+    
       
 }
 

@@ -6,7 +6,8 @@
     --cor33:#b8dbd9bd;
     --cor4: #F4F4F9;
     --cor5: #04724D;
-    --cor6: #1B7F5D;
+    --cor6: #1b7f5e;
+    --cor7: #1b7f5e2a;
     
     
     --fonte-padrao: arial, Verdana, Helvetica, sans-serif;
@@ -33,13 +34,11 @@ main  {
     
 }
 
-
-
-.titulo {
-    text-align: center;
-    font-family: var(--fonte-destaque);
+.video-do-youtube {
+    margin-top: 2vw;
 }
 
+/*Section com o que a hipnose trata*/
 .cartao {
     display: flex;
     flex-wrap: wrap;
@@ -52,8 +51,8 @@ main  {
 }
 
 .imagem-cartao {
-    height: 200px;
-    width: 200px;
+    height: 20vw;
+    width: 20vw;
     border-radius: 15px;
     margin: 20px
 }
@@ -63,25 +62,50 @@ main  {
     text-align: center;
 }
 
+/*DIVISÓRIA COM BACKGROUND IMG INICIO*/
+
+.divisoria-img-background {
+
+    background: black url(https://img.freepik.com/fotos-gratis/feche-pessoas-de-maos-dadas_23-2149220279.jpg?w=996&t=st=1662012959~exp=1662013559~hmac=575403d1a74e0e6fa1245db5ca50100f6b939ec9287347909acae45231b52267) center top no-repeat fixed;
+    background-size: cover;
+    height: 74vw;
+    margin: 10vw 0vw;
+    border-radius: 5vw;
+
+}
+
+#botao-divisoria {
+    align-items: center;
+    text-align: center;
+    margin: 37vw 0vw  ;
+    font-size: 5vw;
+    padding: 1vw;
+
+}
+
 /*SECTION DE DEPOIMENTOS */
 
 .titulo-depoimentos {
     margin: auto;
-    padding: 2vw;
+    padding: 1vw;
     text-align: center;
-    font: (var(--fonte-padrao)));
+    font-style: var(--fonte-destaque);
     font-size: 6vw;
-    background-color: var(--cor6);
+    background-color: var(--cor5);
+    color: var(--cor4);
     border-radius: 10px;
-    width: 75vw;
+    width: 80vw;
 }
 
 .sub-titulo-depoimentos {
-    padding: 2vw;
-    background-color: #04724D;
-    width: 35vw;
-    margin: 1vw auto;
-    font-size: 1em;
+    padding: 0.5vw;
+    background-color:var(--cor2);
+    color:var(--cor4) ;
+    width: 50vw;
+    margin: 3vw auto;
+    font-size: 3vw;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
 }
 
 
