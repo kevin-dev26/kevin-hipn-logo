@@ -84,13 +84,15 @@
     width: 150px;
 } 
 
+
+
 .menu {
     display: flex;
     flex-flow: column;
     padding: 0.5vw;  
     align-items: center;
-    
-      
+    margin-bottom: 2vw;
+         
 }
 
 ul {

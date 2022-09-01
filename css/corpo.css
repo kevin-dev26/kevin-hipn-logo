@@ -39,27 +39,10 @@ main  {
 }
 
 /*Section com o que a hipnose trata*/
-.cartao {
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-    align-items: center;
-}
-.cartao > p {
-    text-align: center;
-    font-size: 1.5em;
-}
 
-.imagem-cartao {
-    height: 20vw;
-    width: 20vw;
-    border-radius: 15px;
-    margin: 20px
-}
-
-.botao-cartao {
-    margin: auto;
-    text-align: center;
+.imagem-tratamentos{
+    height: 35vw;
+    width: 35vw;
 }
 
 /*DIVISÓRIA COM BACKGROUND IMG INICIO*/
@@ -68,7 +51,7 @@ main  {
 
     background: black url(https://img.freepik.com/fotos-gratis/feche-pessoas-de-maos-dadas_23-2149220279.jpg?w=996&t=st=1662012959~exp=1662013559~hmac=575403d1a74e0e6fa1245db5ca50100f6b939ec9287347909acae45231b52267) center top no-repeat fixed;
     background-size: cover;
-    height: 74vw;
+    height: 60vw;
     margin: 10vw 0vw;
     border-radius: 5vw;
 
@@ -77,7 +60,7 @@ main  {
 #botao-divisoria {
     align-items: center;
     text-align: center;
-    margin: 37vw 0vw  ;
+    margin: 27vw 0vw  ;
     font-size: 5vw;
     padding: 1vw;
 
@@ -86,7 +69,7 @@ main  {
 /*SECTION DE DEPOIMENTOS */
 
 .titulo-depoimentos {
-    margin: auto;
+    margin: 2.5vw auto;
     padding: 1vw;
     text-align: center;
     font-style: var(--fonte-destaque);
@@ -114,5 +97,6 @@ main  {
     margin: 0 auto;
     align-items: center;
     border-radius: 10px;
+    padding-bottom: 2vw;
 }
 
