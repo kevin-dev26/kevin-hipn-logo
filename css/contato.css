@@ -13,24 +13,85 @@
     --fonte-especial: 'Noto Serif', serif;
 }
 
-section > a {
-    text-decoration: none;
-    color: black;
+.corpo-contato {
+    margin: auto;
+    padding: 5vw;
+    font: 1em var(--fonte-destaque)
+}
+
+.corpo-contato > h1 {
+    font-size: 8vw;
+    padding: 2vw;
+}
+
+.corpo-contato > h2, h3 {
+
+    font-size: 1.5em;   
+    padding: 2vw;
+
+}
+
+.icone-whatsapp {    
+    width: 20px;
+    height: 20px;
 }
 
 .botao-whatsapp {
-    background-color:(--cor5)
+    
+    background-color:var(--cor2);
+    color:var(--cor4);
+    padding: 1vw;
+    border-radius: 1vw;
+    margin: auto;
 }
 
-.cartao-contato {
-    margin: 1px;
-    padding: 50px;
+.botao-whatsapp:hover {
+    background-color: var(--cor4);
+    color: var(--cor2);
+}
+.botao-whatsapp > a:hover {
+    color: var(--cor2);
 }
 
-.cartao-contato > h1, h2, h3, p {
-
-    padding: 10px;
-    text-align: left;
-
+.botao-whatsapp > a {
+    color: var(--cor4);
+    font:var(--fonte-especial)
 }
 
+#email {
+    font-size: 5vw;
+}
+
+.texto-localizacao {
+    max-width: 300px;
+    margin:10px auto;
+}
+
+@media (min-width: 600px)
+{
+
+    .corpo-contato > h1 {
+        font-size: 5vw;
+    }
+
+
+    .corpo-contato > h2 
+    {
+        font-size: 3vw;
+        text-align: center;
+        width: 300px;
+        margin: 5px auto;         
+    }
+
+    .corpo-contato > p 
+    {
+        font-size: 2vw;
+    }
+
+
+    #email {
+        font-size: 3vw;
+        text-align: center;
+    }
+    
+}

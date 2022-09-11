@@ -38,6 +38,10 @@ main  {
     margin-top: 2vw;
 }
 
+.paragrafo-video {
+    padding: 5vw;
+    font-size: 5vw; 
+}
 /*Section com o que a hipnose trata*/
 
 .imagem-tratamentos{
@@ -45,14 +49,15 @@ main  {
     width: 35vw;
 }
 
+
 /*DIVISÓRIA COM BACKGROUND IMG INICIO*/
 
 .divisoria-img-background {
 
     background: black url(https://img.freepik.com/fotos-gratis/feche-pessoas-de-maos-dadas_23-2149220279.jpg?w=996&t=st=1662012959~exp=1662013559~hmac=575403d1a74e0e6fa1245db5ca50100f6b939ec9287347909acae45231b52267) center top no-repeat fixed;
     background-size: cover;
-    height: 60vw;
-    margin: 10vw 0vw;
+    height: 40vw;
+    margin: 5vw 0vw;
     border-radius: 5vw;
 
 }
@@ -60,7 +65,7 @@ main  {
 #botao-divisoria {
     align-items: center;
     text-align: center;
-    margin: 27vw 0vw  ;
+    margin: 16vw 0vw  ;
     font-size: 5vw;
     padding: 1vw;
 
@@ -68,7 +73,7 @@ main  {
 
 /*SECTION DE DEPOIMENTOS */
 
-.titulo-depoimentos {
+.titulo {
     margin: 2.5vw auto;
     padding: 1vw;
     text-align: center;
@@ -80,7 +85,7 @@ main  {
     width: 80vw;
 }
 
-.sub-titulo-depoimentos {
+.sub-titulo {
     padding: 0.5vw;
     background-color:var(--cor2);
     color:var(--cor4) ;
