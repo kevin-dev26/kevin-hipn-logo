@@ -3,13 +3,14 @@
     --cor1: #06067D;
     --cor2: #000000;
     --cor3: #B8DBD9;
-    --cor33:#b8dbd9bd;
+    --cor33: #b8dbd9bd;
     --cor4: #F4F4F9;
     --cor5: #04724D;
+    --cor5-1: #04724db4;
     --cor6: #1b7f5e;
     --cor7: #1b7f5e2a;
-    
-    
+
+
     --fonte-padrao: arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Newsreader', serif;
     --fonte-especial: 'Noto Serif', serif;
@@ -21,18 +22,142 @@
     max-width: 100%;
 }
 
-main  { 
-    
+main {
+
     background-color: var(--cor33);
     margin: 0 5vw 5vw 5vw;
     text-align: center;
     border-bottom-left-radius: 10vw;
     border-bottom-right-radius: 10vw;
     margin-bottom: 10vw;
-   
+
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    
+
 }
+
+/* BOTÃO FLUTUANTE INICIO*/
+
+/* 
+.fab {
+    position: sticky;
+    top: 2vw;
+    bottom: 10px;
+    right: 10px;
+}
+
+.lista-mini-menu {
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+
+.fab button {
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    border-radius: 30px;
+    background-color: var(--cor6);
+    border: none;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, .4);
+    font-size: 24px;
+    color: white;
+
+    -webkit-transition: .2s ease-out;
+    -moz-transition: .2s ease-out;
+    transition: .2s ease-out;
+}
+
+.fab button.main {
+    
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: var(--cor5);
+    right: 0;
+    bottom: 0;
+    z-index: 20;
+    margin-left: 69vw;
+}
+
+.fab button.main:before {
+    content: '≡';
+}
+
+.fab ul {
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 60px;   
+    list-style: none;
+    z-index: 10;
+
+    -webkit-transition: .2s ease-out;
+    -moz-transition: .2s ease-out;
+    transition: .2s ease-out;
+}
+
+.fab ul li {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    margin-bottom: -5%;
+    opacity: 0;
+
+    -webkit-transition: .3s ease-out;
+    -moz-transition: .3s ease-out;
+    transition: .3s ease-out;
+}
+
+.fab ul li label {
+    margin-right: 10px;
+    white-space: nowrap;
+    display: block;
+    margin-top: 10px;
+    padding: 1px 1px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+    border-radius: 3px;
+    height: 18px;
+    font-size: 16px;
+    pointer-events: none;
+    opacity: 0;
+
+    -webkit-transition: .2s ease-out;
+    -moz-transition: .2s ease-out;
+    transition: .2s ease-out;
+}
+
+.fab button.main:active,
+.fab button.main:focus {
+    outline: none;
+    background-color: var(--cor0);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, .5);
+}
+
+.fab button.main:active:before,
+.fab button.main:focus:before {
+    content: '↑';
+}
+
+.fab button.main:active+ul,
+.fab button.main:focus+ul {
+    top: 50px;
+}
+
+.fab button.main:active+ul li,
+.fab button.main:focus+ul li {
+    margin-bottom: 30px;
+    opacity: 1;
+}
+
+.fab button.main:active+ul li:hover label,
+.fab button.main:focus+ul li:hover label {
+    opacity: 1;
+} */
+
+/* BOTÃO FLUTUANTE FIM*/
 
 .video-do-youtube {
     margin-top: 2vw;
@@ -40,11 +165,12 @@ main  {
 
 .paragrafo-video {
     padding: 5vw;
-    font-size: 5vw; 
+    font-size: 5vw;
 }
+
 /*Section com o que a hipnose trata*/
 
-.imagem-tratamentos{
+.imagem-tratamentos {
     height: 35vw;
     width: 35vw;
 }
@@ -65,13 +191,22 @@ main  {
 #botao-divisoria {
     align-items: center;
     text-align: center;
-    margin: 16vw 0vw  ;
+    margin: 16vw 0vw;
     font-size: 5vw;
     padding: 1vw;
 
 }
 
 /*SECTION DE DEPOIMENTOS */
+
+.section-depoimentos {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.depoimento {
+    order: 1;
+}
 
 .titulo {
     margin: 2.5vw auto;
@@ -87,13 +222,13 @@ main  {
 
 .sub-titulo {
     padding: 0.5vw;
-    background-color:var(--cor2);
-    color:var(--cor4) ;
-    width: 50vw;
+    width: 65vw;
     margin: 3vw auto;
-    font-size: 3vw;
-    border-top-left-radius: 35px;
+    font-size: 4vw;
+    border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
+    background-color: var(--cor5-1);
+    color: var(--cor4);
 }
 
 
@@ -104,4 +239,3 @@ main  {
     border-radius: 10px;
     padding-bottom: 2vw;
 }
-
