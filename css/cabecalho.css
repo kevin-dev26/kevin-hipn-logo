@@ -31,12 +31,14 @@
 }
 
 .texto-faixa-zero {
-    font-size: 1.2em;
+    font-size: 0.8em;
     font-family: var(--fonte-padrao);
     align-items: center;
     text-align: left;
     font-family: (--fonte-padrao);
-    padding: 1em;
+    padding: 2em;
+    color: var(--cor4);
+    font-weight:lighter;
 
 }
 
@@ -49,7 +51,7 @@
     padding: 0.5vw;
 }
 
-.botao-faixa>a {
+.botao-faixa > a {
     font-family: var(--fonte-padrao);
     font-size: 0.8em;
     font-style: bold;
@@ -62,7 +64,7 @@
     background-color: var(--cor3);
     color: var(--cor2);
     font-weight: bold;
-    font-size: 5vw;
+    font-size: 1.8em;
 }
 
 /* FAIXA NO CABEÇALHO FIM*/
