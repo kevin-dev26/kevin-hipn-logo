@@ -4,28 +4,30 @@
     --cor1: #06067D;
     --cor2: #000000;
     --cor3: #B8DBD9;
-    --cor33:#b8dbd9bd;
+    --cor33: #b8dbd9bd;
     --cor4: #F4F4F9;
     --cor5: #04724D;
     --cor6: #1b7f5e;
+    --cor6: #1b7f5e;
+    --cor66: #1b7f5ed1; /*fundo dos Links do menu cabecalho*/
     --cor7: #1b7f5e2a;
-    
-        
+
+
     --fonte-padrao: arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Newsreader', serif;
     --fonte-especial: 'Noto Serif', serif;
 }
 
- /* FAIXA NO CABEÇALHO INICOP*/
- 
+/* FAIXA NO CABEÇALHO INICOP*/
+
 
 .faixa-zero {
-    display:flex;
+    display: flex;
     background-color: var(--cor5);
     margin: auto;
     justify-content: center;
     align-items: center;
-    height: 5em;  
+    height: 5em;
 }
 
 .texto-faixa-zero {
@@ -35,7 +37,7 @@
     text-align: left;
     font-family: (--fonte-padrao);
     padding: 1em;
-    
+
 }
 
 
@@ -43,56 +45,77 @@
     color: var(--cor3);
     margin: 10px;
     border-radius: 15px;
-    background-color: var(--cor2);   
-    padding: 0.5vw; 
+    background-color: var(--cor2);
+    padding: 0.5vw;
 }
 
-.botao-faixa > a {
+.botao-faixa>a {
     font-family: var(--fonte-padrao);
     font-size: 0.8em;
     font-style: bold;
     color: (var(--cor3));
-    text-decoration: none;     
-    
+    text-decoration: none;
+
 }
 
 .botao-faixa:hover {
     background-color: var(--cor3);
     color: var(--cor2);
     font-weight: bold;
+    font-size: 5vw;
 }
 
-.imagem-back-menu {
-    padding: 5vw;
-}
-
-
- /* FAIXA NO CABEÇALHO FIM*/
+/* FAIXA NO CABEÇALHO FIM*/
 
 .cabecalho {
-    
-    background: black url(https://img.freepik.com/vetores-gratis/ilustracao-do-conceito-de-psicologo_114360-2141.jpg?w=740&t=st=1662013216~exp=1662013816~hmac=c3c726f076b1033228420313c1d5f05dc3c1e7b4d52bdbb1b33abf4554bac0ba) center center no-repeat fixed;
+
+    background: black url(https://img.freepik.com/vetores-gratis/fundo-elegante-da-aguarela-da-cor-verde-clara_1055-2316.jpg?w=2000) center center no-repeat fixed;
     background-size: cover;
-    height:max-content;
+    height: max-content;
+    padding: 15px 0px;
 }
-.logo {
-    display: block; /* LOGO FORA DO SITE */
-    margin-right: auto;
-    margin-left: auto;
-    flex-wrap: wrap;
-    height: 150px;
-    width: 150px;
-} 
+
+@media (max-width: 500px) {
 
 
+}
+
+
+@media (max-width: 1000px) { /* tamanho da logo PARA TELAS MENORES QUE 1000px*/
+
+    .logo {
+        display: flex;
+        margin: auto;
+        height: 40vw;
+        width: 40vw;
+        margin: 0px auto 10px;
+        border-radius: 50%;
+    }
+
+}
+
+@media (min-width: 1001px){ /* tamanho da logo PARA TELAS maiores QUE 1000px*/
+
+    .logo {
+
+        display: flex;
+        margin: auto;
+        height: 25vw;
+        width: 25vw;
+        margin: 10px auto;
+        border-radius: 50%;
+
+    }
+
+}
 
 .menu {
     display: flex;
     flex-flow: column;
-    padding: 0.5vw;  
+    padding: 0.5vw;
     align-items: center;
     margin-bottom: 2vw;
-         
+
 }
 
 ul {
@@ -100,21 +123,21 @@ ul {
 
 }
 
-ul > li > a {
+ul>li>a {
     color: (var(--cor3));
     font-size: 17px;
     font-style: var(--fonte-padrao);
     text-decoration: none;
-    background-color: #1b7f5ed1;
+    background-color:var(--cor66);
     text-align: center;
     padding: 12px;
     width: 120px;
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    
+
 }
 
-ul > li > a:hover {
+ul>li>a:hover {
     color: (var(--cor0));
     background-color: var(--cor4);
     text-decoration: none;
@@ -122,11 +145,10 @@ ul > li > a:hover {
 }
 
 li {
-    
+
     display: flex;
     flex-flow: column;
     padding: 0.75vw;
     font-family: var(--fonte-padrao);
-    
-}
 
+}
