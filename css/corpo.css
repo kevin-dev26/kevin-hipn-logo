@@ -139,6 +139,12 @@ main {
     color: var(--cor4);
 }
 
+.container-conteudo {
+    margin: 10px auto;
+    padding: 15px;
+    
+}
+
 
 .depoimento-imagem {
     display: block;
