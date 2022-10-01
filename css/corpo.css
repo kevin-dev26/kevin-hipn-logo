@@ -36,10 +36,18 @@ main {
 }
 
 .paragrafo-texto-comum {
+    color: var(--cor2);
+    margin: 10px auto;
     font: var(--fonte-padrao);
-    padding: 5vw 12vw;
+    padding: 3vw 5vw;
     text-align: justify;
+    font-size: 4vw;
 
+}
+
+.footer-menu {
+    
+    padding-bottom: 35px;
 }
 
 /* BOTÃO FLUTUANTE INICIO*/
