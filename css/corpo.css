@@ -16,6 +16,16 @@
     --fonte-especial: 'Noto Serif', serif;
 }
 
+.paragrafo-texto-comum {
+    color: var(--cor2);
+    margin: 10px auto;
+    font: var(--fonte-padrao);
+    padding: 3vw 5vw;
+    text-align: justify;
+    font-size: 4vw;
+
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -32,16 +42,6 @@ main {
     margin-bottom: 10vw;
 
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
-}
-
-.paragrafo-texto-comum {
-    color: var(--cor2);
-    margin: 10px auto;
-    font: var(--fonte-padrao);
-    padding: 3vw 5vw;
-    text-align: justify;
-    font-size: 4vw;
 
 }
 
@@ -148,6 +148,15 @@ main {
     font-size: 4vw;
     border-bottom-left-radius: 35px;
     border-bottom-right-radius: 35px;
+    background-color: var(--cor5-1);
+    color: var(--cor4);
+}
+
+.box-sub-titulo2 {
+    padding: 5vw;
+    width: 65vw;
+    margin: 3vw auto;
+    font-size: 6vw;
     background-color: var(--cor5-1);
     color: var(--cor4);
 }
